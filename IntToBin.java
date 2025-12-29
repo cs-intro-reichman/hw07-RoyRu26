@@ -12,7 +12,7 @@ public class IntToBin {
      */
     public static String toBinary(int x) {
         if(x == 0){
-            return "";
+            return "0";
         }
         String result = toBinary(x / 2) + (x % 2);
         return result;
