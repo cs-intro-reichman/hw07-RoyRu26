@@ -14,7 +14,7 @@ public class IntToBin {
         if(x == 0){
             return "";
         }
-        String result = (x % 2) + toBinary(x / 2);
+        String result = toBinary(x / 2) + (x % 2);
         return result;
     }
 }
