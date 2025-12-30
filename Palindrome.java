@@ -13,7 +13,6 @@ public class Palindrome {
 		if (s.charAt(0) != s.charAt(s.length() - 1)) {
 			return false;
 		}
-		isPalindrome(s.substring(1, s.length() - 2));
-		return true;
+		return isPalindrome(s.substring(1, s.length() - 1));
     }
 }
